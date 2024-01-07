@@ -1,0 +1,281 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 82.5%;
+    max-width: 1584px;
+    margin: 0 auto;
+}
+
+/* banner section */
+.banner-section {
+    /* background-image: url("./images/Banner\ Image.png"); */
+    /* width: 1320px; */
+    width: 82.5%;
+    max-width: 1584px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("./images/Banner\ Image.png");
+    margin-top: 50px;
+}
+
+.banner-text p {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 38.4px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.banner-text h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 84px;
+    font-weight: 900;
+    line-height: 95px;
+    width: 758.4px;
+    margin: 0 auto;
+    font-family: Merriweather;
+}
+
+/* discount section */
+.discount-section {
+    margin-top: 120px;
+}
+
+.discount-items {}
+
+.discount-text {}
+
+.discount-text h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 105.6px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.discount-text p {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.discount-text h4 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.discount-img {
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.discount-img img {
+    width: 963.48px;
+    height: 500px;
+    flex-shrink: 0;
+}
+
+/* welcome section */
+.welcome-section {
+    width: 1584px;
+    height: 600px;
+    flex-shrink: 0;
+    /* background-image: url("./images/Vectorrr.png"); */
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("./images/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    margin-bottom: 120px;
+}
+
+.welcome-items {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+
+.welcome-text {
+    width: 50%;
+}
+
+.welcome-text h1 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 76.8px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    margin-bottom: 24px;
+}
+
+.welcome-text p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 21.6px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 48px;
+    width: 836.4px;
+}
+
+.welcome-text a {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* place date time section */
+.place-date-time-section {
+    display: flex;
+    justify-content: center;
+    width: 1584px;
+    height: 482px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 16px;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.p-d-t-items {
+    text-align: center;
+}
+
+.p-d-t-items span {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.p-d-t-items h4 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.p-d-t-items button {
+    padding: 16px 38.4px;
+    border-radius: 8px;
+    background: #F00;
+    border: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 48px;
+}
+
+/* new best offer section */
+.new-best-offer-section {
+    background: #FFF;
+}
+
+.n-b-o-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.n-b-o-item-one {}
+
+.n-b-o-item-one h6 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.n-b-o-item-one h4 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.n-b-o-item-one p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 440px;
+}
+
+.n-b-o-item-two {}
+
+.n-b-o-item-two img {
+    /* width: 364.844px;
+height: 364.844px; */
+    width: 437.81px;
+    height: 437.81px;
+    flex-shrink: 0;
+    padding: 20px;
+    border: 15px solid #F00;
+    border-radius: 50%;
+}
+
+.n-b-o-item-three {
+    margin-top: 22px;
+}
+
+.n-b-o-item-three h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.n-b-o-item-three p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 190px;
+    margin-bottom: 22px;
+}
+
+.n-b-o-item-three img {
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+    margin-top: px;
+}
