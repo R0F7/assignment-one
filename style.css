@@ -202,6 +202,7 @@
 /* new best offer section */
 .new-best-offer-section {
     background: #FFF;
+    margin-bottom: 120px;
 }
 
 .n-b-o-items {
@@ -238,7 +239,9 @@
     width: 440px;
 }
 
-.n-b-o-item-two {}
+.n-b-o-item-two {
+    margin-right: 170px;
+}
 
 .n-b-o-item-two img {
     /* width: 364.844px;
@@ -278,4 +281,172 @@ height: 364.844px; */
     height: 140px;
     flex-shrink: 0;
     margin-top: px;
+}
+
+/* holiday sale section */
+.holiday-sale-section {
+    margin-bottom: 120px;
+}
+
+.holiday-sale-caption {
+    text-align: center;
+}
+
+.holiday-sale-caption h6 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holiday-sale-caption span {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holiday-sale-caption h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+
+.holiday-sale-caption p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    width: 650px;
+    margin: 0 auto;
+}
+
+.holiday-sale-images {
+    width: 1584px;
+    height: 662.07px;
+    flex-shrink: 0;
+    background-image: url("./images/Rectangle\ 2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left bottom;
+    position: relative;
+    margin-top: 150px;
+}
+
+.first-picture {
+    /* width: 796.463px;
+      height: 662.07px;
+      flex-shrink: 0; */
+
+}
+
+.second-picture {
+    width: 514.8px;
+    height: 433px;
+    flex-shrink: 0;
+    background-image: url("./images/Rectangle\ 1.png");
+    background-repeat: no-repeat;
+    margin-top: 64px;
+    position: absolute;
+    top: -110px;
+    right: -85px;
+}
+
+.third-picture {
+    width: 268.209px;
+    height: 256.841px;
+    flex-shrink: 0;
+    background-image: url("./images/Group\ 44.png");
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 330px;
+}
+
+/* the best gift section */
+.the-best-gift-section {
+    margin-bottom: 120px;
+}
+
+.t-b-g-caption {}
+
+.t-b-g-caption h6 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.t-b-g-caption h4 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+
+.t-b-g-caption p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 876px;
+}
+
+.t-b-g-image-items {
+  
+}
+
+.t-b-g-image-item {
+    display: flex;
+    gap: 28.8px;
+    justify-content: space-between;
+}
+
+.t-b-g-image-item-one {
+    width: 508.8px;
+    height: 540px; 
+    /* width: 424px; */
+    /* height: 450px; */
+    flex-shrink: 0;
+    border-radius: 16px;
+    background-image: url("./images/Rectangle\ 3.png");
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.t-b-g-image-item-one:hover{
+    transform: scale(1.1,1.1);
+}
+
+
+.t-b-g-image-item-two {
+    /* width: 424px; */
+    /* height: 450px; */
+    width: 508.8px;
+    height: 540px; 
+    flex-shrink: 0;
+    border-radius: 16px;
+    background-image: url("./images/Rectangle\ 4.png");
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+.t-b-g-image-item-three {
+    /* width: 424px; */
+    /* height: 450px; */
+    width: 508.8px;
+    height: 540px; 
+    flex-shrink: 0;
+    border-radius: 16px;
+    background-image: url("./images/Rectangle\ 5.png");
+    background-repeat: no-repeat;
+    background-size: cover ;
 }
