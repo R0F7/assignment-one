@@ -373,7 +373,9 @@ height: 364.844px; */
     margin-bottom: 120px;
 }
 
-.t-b-g-caption {}
+.t-b-g-caption {
+    margin-bottom: 48px;
+}
 
 .t-b-g-caption h6 {
     color: #F00;
@@ -409,44 +411,79 @@ height: 364.844px; */
     display: flex;
     gap: 28.8px;
     justify-content: space-between;
+    margin-bottom: 24px;
 }
-
+.imagewh{
+    width: 100%;
+    height: 100%;
+}
 .t-b-g-image-item-one {
     width: 508.8px;
     height: 540px; 
-    /* width: 424px; */
-    /* height: 450px; */
     flex-shrink: 0;
     border-radius: 16px;
-    background-image: url("./images/Rectangle\ 3.png");
-    background-repeat: no-repeat;
-    background-size: cover ;
+    overflow: hidden;
 }
-.t-b-g-image-item-one:hover{
-    transform: scale(1.1,1.1);
+
+.t-b-g-image-item-one img:hover{
+    transform: scale(1.1,1.05);
+    transition: .5s;
 }
 
 
 .t-b-g-image-item-two {
-    /* width: 424px; */
-    /* height: 450px; */
     width: 508.8px;
     height: 540px; 
     flex-shrink: 0;
     border-radius: 16px;
-    background-image: url("./images/Rectangle\ 4.png");
-    background-repeat: no-repeat;
-    background-size: cover ;
+    overflow: hidden;
+}
+.t-b-g-image-item-two img:hover{
+    transform: scale(1.1,1.05);
+    transition: .5s;
+}
+.t-b-g-image-item-three {
+    width: 508.8px;
+    height: 540px; 
+    flex-shrink: 0;
+    border-radius: 16px;
+    overflow: hidden;
+}
+.t-b-g-image-item-three img:hover{
+    transform: scale(1.1,1.05);
+    transition: .5s;
 }
 
-.t-b-g-image-item-three {
-    /* width: 424px; */
-    /* height: 450px; */
+.t-b-g-image-item-four{
     width: 508.8px;
     height: 540px; 
     flex-shrink: 0;
     border-radius: 16px;
-    background-image: url("./images/Rectangle\ 5.png");
-    background-repeat: no-repeat;
-    background-size: cover ;
+    overflow: hidden;
+}
+.t-b-g-image-item-four img:hover{
+    transform: scale(1.1,1.05);
+    transition: .5s;
+}
+.t-b-g-image-item-five{
+    width: 508.8px;
+    height: 540px; 
+    flex-shrink: 0;
+    border-radius: 16px;
+    overflow: hidden;
+}
+.t-b-g-image-item-five img:hover{
+    transform: scale(1.1,1.05);
+    transition: .5s;
+}
+.t-b-g-image-item-six{
+    width: 508.8px;
+    height: 540px; 
+    flex-shrink: 0;
+    border-radius: 16px;
+    overflow: hidden;
+}
+.t-b-g-image-item-six img:hover{
+    transform: scale(1.1,1.05);
+    transition: .5s;
 }
